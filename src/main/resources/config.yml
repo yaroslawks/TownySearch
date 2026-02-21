@@ -1,0 +1,51 @@
+cooldown: 60 #в сек
+
+# городские роли которые могут видеть сообщение /tsearch
+allowed-roles:
+  - "mayor"
+  - "assistant"
+
+messages:
+  no-perm: "<#E83F25>✘ У вас нет прав для использования этой команды"
+  unknown-cmd: "<#E83F25>✘ Неизвестная команда! Используйте: /tsearch [ignore|reload]"
+  reload-ok: "<#8FA31E>✔ Конфигурация успешно перезагружена"
+
+  has-town: "<#FEB21A>⚠ Вы уже состоите в городе"
+  cooldown: "<#E83F25>⚠ Подождите еще <time> секунд перед следующим использованием"
+  search-sent: "<#8FA31E>✔ Запрос на поиск города отправлен"
+
+  player-not-found: "<#E83F25>✘ Игрок не найден"
+  ignore-added: "<#8FA31E>✔ Вы игнорируете игрока"
+  ignore-removed: "<#8FA31E>✔ Вы больше не игнорируете игрока"
+  not-in-ignore: "<#E83F25>✘ Игрок не найден в списке!"
+  ignore-empty: "<#FEB21A>⚠ Вы не игнорируете ни одного игрока"
+  ignore-header: "<#FEB21A>===- ≡ Игнорируемые игроки: -==="
+  ignore-entry: "<#E83F25>✘</#E83F25> <player>"
+  remove-hover: "<gray>● Нажмите, чтобы перестать игнорировать"
+
+  usage-ignore: "<#E83F25>ℹ Использование: /tsearch ignore [add|remove] <игрок>"
+  usage-add: "<#E83F25>ℹ Использование: /tsearch ignore add <игрок>"
+  usage-remove: "<#E83F25>ℹ Использование: /tsearch ignore remove <игрок>"
+
+  page-info: "<gray>Страница: <cur>/<total>"
+
+  prev-btn: "<#8FA31E>[←]</#8FA31E>"
+  next-btn: "<#8FA31E>[→]</#8FA31E>"
+  prev-inactive: "<gray>[←]</gray>"
+  next-inactive: "<gray>[→]</gray>"
+  prev-hover: "<gray>← Предыдущая страница"
+  next-hover: "<gray>Следующая страница →"
+  first-hover: "<gray>ℹ Это первая страница"
+  last-hover: "<gray>ℹ Это последняя страница"
+
+  search:
+    - ""
+    - "<#33A1E0>ℹ Объявление"
+    - "<gray>Игрок <#8FA31E><player></#8FA31E> в активных поисках города!"
+    - "[buttons]"
+    - ""
+
+  accept-btn: "<dark_gray>[<#8FA31E>✔ Принять</#8FA31E>]"
+  ignore-btn: "<dark_gray>[<#E83F25>✘ Игнор</#E83F25>]"
+  accept-hover: "<gray>● Нажмите, чтобы принять игрока"
+  ignore-hover: "<gray>● Нажмите, чтобы игнорировать запросы"

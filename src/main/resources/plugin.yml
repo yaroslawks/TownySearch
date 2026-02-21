@@ -1,0 +1,15 @@
+name: TownySearch
+version: '1.0'
+main: org.fedorov.townysearch.TownySearch
+api-version: '1.20'
+authors: [fedorov]
+website: https://black-minecraft.com/members/fedorov.64414/
+depend: [Towny]
+commands:
+  tsearch:
+    aliases: [task, townsearch, townask]
+permissions:
+  townysearch.ignore:
+    default: op
+  townysearch.reload:
+    default: op
